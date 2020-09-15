@@ -5,10 +5,11 @@ const FULL_HEART = '♥'
 // Your JavaScript code goes here!
   let modal = document.querySelector('.hidden')
 
-  if(modal === null) {
-    modal.className = ' hidden'
-  }
-
+let likes = document.querySelector('.like')
+  // if(modal === null) {
+  //   modal.className = ' hidden'
+  // }
+  // 
 
 
 
