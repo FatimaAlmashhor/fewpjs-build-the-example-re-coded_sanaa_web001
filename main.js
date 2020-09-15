@@ -5,7 +5,7 @@ const FULL_HEART = '♥'
 // Your JavaScript code goes here!
   let modal = document.querySelector('.hidden')
 
-let likes = document.querySelector('.like');
+let likes = document.querySelectorAll('.like');
 console.log(likes);
 likes.forEach( e => {
   e.addEventListner('click' , e => {
