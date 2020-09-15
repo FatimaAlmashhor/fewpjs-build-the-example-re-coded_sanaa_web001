@@ -9,7 +9,7 @@ let likes = document.querySelector('.like')
   // if(modal === null) {
   //   modal.className = ' hidden'
   // }
-  // 
+  //
 
 
 
