@@ -8,7 +8,7 @@ const FULL_HEART = '♥'
 let likes = document.querySelectorAll('.like');
 console.log(likes);
 likes.forEach( e => {
-  e.addEventListner('click' , e => {
+  e.addEventListener('click' , e => {
     console.log('click');
   })
 })
