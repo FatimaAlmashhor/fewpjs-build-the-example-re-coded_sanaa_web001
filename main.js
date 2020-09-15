@@ -3,7 +3,7 @@ const EMPTY_HEART = '♡'
 const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
-let modle = document.getElementById('modal');
+  let modal = document.querySelector('.hidden')
 
 
 
