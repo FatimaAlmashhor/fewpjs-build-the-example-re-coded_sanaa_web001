@@ -29,6 +29,7 @@ function mimicServerCall(url="http://mimicServer.example.com", config={}) {
     setTimeout(function() {
       let isRandomFailure = Math.random() < .2
       if (isRandomFailure) {
+        modal.className = '';
         reject("Random server error. Try again.");
       } else {
         resolve("Pretend remote server notified of action!");
