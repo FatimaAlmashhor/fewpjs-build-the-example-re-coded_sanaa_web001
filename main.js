@@ -6,6 +6,7 @@ const FULL_HEART = '♥'
   let modal = document.querySelector('.hidden')
 
 let likes = document.querySelector('.like');
+console.log(likes);
 likes.forEach( e => {
   e.addEventListner('click' , e => {
     console.log('click');
