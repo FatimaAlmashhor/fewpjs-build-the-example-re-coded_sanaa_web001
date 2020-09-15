@@ -10,6 +10,7 @@ console.log(likes);
 likes.forEach( e => {
   e.addEventListener('click' , e => {
     console.log('click');
+    mimicServerCall()
   })
 })
   // if(modal === null) {
